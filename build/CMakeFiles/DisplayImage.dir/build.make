@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp"
+CMAKE_SOURCE_DIR = /home/abdullahshafin/Desktop/Work/HiwiFZI/temp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build"
+CMAKE_BINARY_DIR = /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DisplayImage.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/DisplayImage.dir/flags.make
 
 CMakeFiles/DisplayImage.dir/testCV.cxx.o: CMakeFiles/DisplayImage.dir/flags.make
 CMakeFiles/DisplayImage.dir/testCV.cxx.o: ../testCV.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build/CMakeFiles" $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/DisplayImage.dir/testCV.cxx.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/DisplayImage.dir/testCV.cxx.o -c "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/testCV.cxx"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/DisplayImage.dir/testCV.cxx.o -c /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/testCV.cxx
 
 CMakeFiles/DisplayImage.dir/testCV.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/testCV.cxx.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/testCV.cxx" > CMakeFiles/DisplayImage.dir/testCV.cxx.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/testCV.cxx > CMakeFiles/DisplayImage.dir/testCV.cxx.i
 
 CMakeFiles/DisplayImage.dir/testCV.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/testCV.cxx.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/testCV.cxx" -o CMakeFiles/DisplayImage.dir/testCV.cxx.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/testCV.cxx -o CMakeFiles/DisplayImage.dir/testCV.cxx.s
 
 CMakeFiles/DisplayImage.dir/testCV.cxx.o.requires:
 .PHONY : CMakeFiles/DisplayImage.dir/testCV.cxx.o.requires
@@ -125,6 +125,6 @@ CMakeFiles/DisplayImage.dir/clean:
 .PHONY : CMakeFiles/DisplayImage.dir/clean
 
 CMakeFiles/DisplayImage.dir/depend:
-	cd "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp" "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp" "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build" "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build" "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build/CMakeFiles/DisplayImage.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abdullahshafin/Desktop/Work/HiwiFZI/temp /home/abdullahshafin/Desktop/Work/HiwiFZI/temp /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build/CMakeFiles/DisplayImage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DisplayImage.dir/depend
 

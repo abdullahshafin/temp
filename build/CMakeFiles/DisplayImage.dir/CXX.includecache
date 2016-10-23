@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/testCV.cxx
+/home/abdullahshafin/Desktop/Work/HiwiFZI/temp/testCV.cxx
 stdio.h
 -
 opencv2/opencv.hpp

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp"
+CMAKE_SOURCE_DIR = /home/abdullahshafin/Desktop/Work/HiwiFZI/temp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build"
+CMAKE_BINARY_DIR = /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build/CMakeFiles" "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build/CMakeFiles /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -102,24 +102,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DisplayImage
+# Target rules for targets named FileHandling
 
 # Build rule for target.
-DisplayImage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DisplayImage
-.PHONY : DisplayImage
+FileHandling: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FileHandling
+.PHONY : FileHandling
 
 # fast build rule for target.
-DisplayImage/fast:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-.PHONY : DisplayImage/fast
+FileHandling/fast:
+	$(MAKE) -f CMakeFiles/FileHandling.dir/build.make CMakeFiles/FileHandling.dir/build
+.PHONY : FileHandling/fast
 
 testCV.o: testCV.cxx.o
 .PHONY : testCV.o
 
 # target to build an object file
 testCV.cxx.o:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/testCV.cxx.o
+	$(MAKE) -f CMakeFiles/FileHandling.dir/build.make CMakeFiles/FileHandling.dir/testCV.cxx.o
 .PHONY : testCV.cxx.o
 
 testCV.i: testCV.cxx.i
@@ -127,7 +127,7 @@ testCV.i: testCV.cxx.i
 
 # target to preprocess a source file
 testCV.cxx.i:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/testCV.cxx.i
+	$(MAKE) -f CMakeFiles/FileHandling.dir/build.make CMakeFiles/FileHandling.dir/testCV.cxx.i
 .PHONY : testCV.cxx.i
 
 testCV.s: testCV.cxx.s
@@ -135,7 +135,7 @@ testCV.s: testCV.cxx.s
 
 # target to generate assembly for a file
 testCV.cxx.s:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/testCV.cxx.s
+	$(MAKE) -f CMakeFiles/FileHandling.dir/build.make CMakeFiles/FileHandling.dir/testCV.cxx.s
 .PHONY : testCV.cxx.s
 
 # Help Target
@@ -144,7 +144,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... DisplayImage"
+	@echo "... FileHandling"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... testCV.o"

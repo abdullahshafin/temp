@@ -50,44 +50,44 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp"
+CMAKE_SOURCE_DIR = /home/abdullahshafin/Desktop/Work/HiwiFZI/temp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build"
+CMAKE_BINARY_DIR = /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/DisplayImage.dir
+# Target rules for target CMakeFiles/FileHandling.dir
 
 # All Build rule for target.
-CMakeFiles/DisplayImage.dir/all:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/depend
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build/CMakeFiles"  1
-	@echo "Built target DisplayImage"
-.PHONY : CMakeFiles/DisplayImage.dir/all
+CMakeFiles/FileHandling.dir/all:
+	$(MAKE) -f CMakeFiles/FileHandling.dir/build.make CMakeFiles/FileHandling.dir/depend
+	$(MAKE) -f CMakeFiles/FileHandling.dir/build.make CMakeFiles/FileHandling.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build/CMakeFiles  1
+	@echo "Built target FileHandling"
+.PHONY : CMakeFiles/FileHandling.dir/all
 
 # Include target in all.
-all: CMakeFiles/DisplayImage.dir/all
+all: CMakeFiles/FileHandling.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DisplayImage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build/CMakeFiles" 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DisplayImage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/abdullahshafin/Desktop/Work/Hiwi FZI/temp/build/CMakeFiles" 0
-.PHONY : CMakeFiles/DisplayImage.dir/rule
+CMakeFiles/FileHandling.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FileHandling.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abdullahshafin/Desktop/Work/HiwiFZI/temp/build/CMakeFiles 0
+.PHONY : CMakeFiles/FileHandling.dir/rule
 
 # Convenience name for target.
-DisplayImage: CMakeFiles/DisplayImage.dir/rule
-.PHONY : DisplayImage
+FileHandling: CMakeFiles/FileHandling.dir/rule
+.PHONY : FileHandling
 
 # clean rule for target.
-CMakeFiles/DisplayImage.dir/clean:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/clean
-.PHONY : CMakeFiles/DisplayImage.dir/clean
+CMakeFiles/FileHandling.dir/clean:
+	$(MAKE) -f CMakeFiles/FileHandling.dir/build.make CMakeFiles/FileHandling.dir/clean
+.PHONY : CMakeFiles/FileHandling.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/DisplayImage.dir/clean
+clean: CMakeFiles/FileHandling.dir/clean
 .PHONY : clean
 
 #=============================================================================

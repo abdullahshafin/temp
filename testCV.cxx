@@ -30,8 +30,9 @@ int main(int argc, char** argv )
 
     Mat imOut = Mat::zeros(image.size(), image.type());
 
-    namedWindow("Display Image", WINDOW_AUTOSIZE );
-	imshow("Display Image", image);
+    namedWindow("Display Image", WINDOW_NORMAL);
+    loadWindowParameters("Display Image");
+    imshow("Display Image", image);
 	    
     while(keyPressed!=27&&keyPressed!=10)
 	{
